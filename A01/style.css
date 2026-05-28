@@ -1,0 +1,118 @@
+@font-face {
+    font-family: p2p;
+    src: url(./PressStart2P-Regular.ttf);
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+html,
+body{
+    width:100%;
+    height:100%;
+}
+
+#parent{
+    width:100%;
+    height:100%;
+    position:relative;
+    display:flex;
+    overflow:hidden;
+}
+
+#left{
+    width:50%;
+    height:100%;
+    background:#f8d41c;
+}
+
+#right{
+    width:50%;
+    height:100%;
+    background:#f6ebc8;
+}
+
+#logo{
+    position:absolute;
+    top:2%;
+    left:2%;
+    z-index:2;
+}
+
+#menu{
+    position:absolute;
+    top:2%;
+    right:2%;
+    z-index:2;
+}
+
+#pikachu{
+    position:absolute;
+    top:50%;
+    left:58%;
+    transform:translate(-60%,-50%);
+    z-index:2;
+}
+
+#contentL{
+    position:absolute;
+    top:28%;
+    left:8%;
+    width:350px;
+    z-index:2;
+}
+
+#contentL h5{
+    font-family:p2p;
+    font-size:20px;
+    letter-spacing:2px;
+    margin-bottom: 25px;
+}
+
+#contentL h1{
+    font-family:p2p;
+    font-size:80px;
+    line-height:100px;
+    margin-bottom:25px;
+}
+
+#contentL p{
+    font-size:20px;
+    font-weight: 800;
+    line-height:30px;
+    color:#000000;
+}
+
+#contentR{
+    font-family:p2p;
+    position:absolute;
+    right:11%;
+    top:40%;
+    z-index:2;
+    text-align:right;
+}
+
+#contentR h3{
+    font-family:p2p;
+    font-size:35px;
+    margin-bottom:20px;
+}
+
+#contentR p{
+    font-size:20px;
+    font-weight: 600;
+    line-height:30px;
+    color:#333;
+    margin-bottom:15px;
+}
+
+#pokeball{
+    position:absolute;
+    bottom:-40px;
+    left:-30px;
+    opacity:0.2;
+}
